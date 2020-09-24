@@ -51,6 +51,15 @@ Add eslint-config-prettier to the "extends" array in your .eslintrc.* file.
 }
 ```
 
+### VSCode 
+
+Push `F1` key on VSCode.
+
+```
+ext install eslint
+ext install prettier
+```
+
 ## Customize editor environment
 
 You shoud modfiy below configuration file under your project rule.
