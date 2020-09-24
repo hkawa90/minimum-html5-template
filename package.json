@@ -1,0 +1,32 @@
+{
+  "name": "minimum-html5-template",
+  "version": "0.0.1",
+  "description": "Minimum HTML5 template",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx eslint --init",
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkawa90/minimum-html5-template.git"
+  },
+  "keywords": [
+    "HTML5"
+  ],
+  "author": "Hideo Kawamura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hkawa90/minimum-html5-template/issues"
+  },
+  "homepage": "https://github.com/hkawa90/minimum-html5-template#readme",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "parcel": "^2.0.0-beta.1",
+    "prettier": "2.1.2"
+  }
+}
