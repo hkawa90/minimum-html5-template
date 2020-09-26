@@ -58,6 +58,7 @@ Push `F1` key on VSCode.
 ```
 ext install eslint
 ext install prettier
+ext install EditorConfig
 ```
 
 ## Customize editor environment
